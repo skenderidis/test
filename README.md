@@ -1,3 +1,7 @@
+ts
+
+
+```yml
 apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
@@ -16,3 +20,4 @@ spec:
     backendRefs:
     - name: coffee
       port: 80
+```
